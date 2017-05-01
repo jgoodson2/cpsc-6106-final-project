@@ -16,7 +16,7 @@ public class PayrollSystemTest {
         employees[3] = new BasePlusCommissionEmployee(
                 "Bob", "Lewis", "444-44-4444", 5000, .04, 300);
       /* create a PieceWoker object and assign it to employees[ 4 ] */
-//        employees[4] = new PieceWorker
+        employees[4] = new PieceWorker("Jonathon", "Goodson", "555-55-5555", 2.25, 400);
 
         System.out.println("Employees processed polymorphically:\n");
 
